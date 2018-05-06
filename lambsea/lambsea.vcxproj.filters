@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="D3D9Render.cpp">
+      <Filter>D3D9Render</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase.cpp">
+      <Filter>Gamebase</Filter>
+    </ClCompile>
+    <ClCompile Include="LambseaExternal.cpp">
+      <Filter>Mainroutine</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverInterface.cpp">
+      <Filter>DriverLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="UndocumentNt.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Render\D3D11Renderer.cpp">
+      <Filter>D3D11Render</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Render\D3D11StateSaver.cpp">
+      <Filter>D3D11Render</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1ColorRGBA.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1ColorRGBAInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1DWriteRenderTarget.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1DWriteRenderTargetInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1Factory.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1FactoryInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1FontWrapper.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1FontWrapperInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphAtlas.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphAtlasInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphProvider.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphProviderInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphRenderStates.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphRenderStatesInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphSheet.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphSheetInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphVertexDrawer.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1GlyphVertexDrawerInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1StateSaver.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1TextGeometry.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1TextGeometryInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1TextRenderer.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\CFW1TextRendererInterface.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\FW1FontWrapper.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper\FW1Precompiled.cpp">
+      <Filter>FW1Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Driver-resrvlib-Interface.h">
+      <Filter>DriverLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverInterface.h">
+      <Filter>DriverLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9Render.h">
+      <Filter>D3D9Render</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h">
+      <Filter>Gamebase</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStrings.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="LambseaExternal.h">
+      <Filter>Mainroutine</Filter>
+    </ClInclude>
+    <ClInclude Include="Injection.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="UndocumentNt.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Gamebase</Filter>
+    </ClInclude>
+    <ClInclude Include="Decrypt.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Render\D3D11Renderer.h">
+      <Filter>D3D11Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Render\D3D11Shader.h">
+      <Filter>D3D11Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Render\D3D11StateSaver.h">
+      <Filter>D3D11Render</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11Render\Helper.h">
+      <Filter>D3D11Render</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1ColorRGBA.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1DWriteRenderTarget.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1Factory.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1FontWrapper.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1GlyphAtlas.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1GlyphProvider.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1GlyphRenderStates.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1GlyphSheet.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1GlyphVertexDrawer.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1Object.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1StateSaver.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1TextGeometry.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\CFW1TextRenderer.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\FW1CompileSettings.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\FW1FontWrapper.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper\FW1Precompiled.h">
+      <Filter>FW1Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DriverLoader">
+      <UniqueIdentifier>{e53b05fd-7b21-4b80-810c-c5eebd84798e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D9Render">
+      <UniqueIdentifier>{c18192fe-a08c-4ae1-86e8-77bac05fb2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gamebase">
+      <UniqueIdentifier>{8bee36bd-ff70-45a8-a312-f5be456513e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{dbfd24ba-8268-45e6-8538-b04cf996f43d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{13834d82-3af4-4870-8a94-7474909d6a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mainroutine">
+      <UniqueIdentifier>{75015a94-30f8-47a4-99f6-d81a948340ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D11Render">
+      <UniqueIdentifier>{e0bdb251-dbb2-4f7f-ad73-0ca2649bdf0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FW1Font">
+      <UniqueIdentifier>{0b0974a4-ce25-43c0-ace1-314490920f11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
