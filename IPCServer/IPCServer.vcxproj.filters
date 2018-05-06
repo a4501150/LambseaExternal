@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{98c8933f-e7c9-4d37-a411-f4d2729d43b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{3d41a3f4-2616-48b3-ad2f-f5a015bff30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IPCDataStructure">
+      <UniqueIdentifier>{4eacd759-cd53-4c7d-ad39-c356aeb8bd98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IPCServer">
+      <UniqueIdentifier>{f3fccf69-f44b-484c-a97d-3f509bf589d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IPCPacket.h">
+      <Filter>IPCDataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="IPCServer.h">
+      <Filter>IPCServer</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleGetter.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="winternl.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IPCServer.cpp">
+      <Filter>IPCServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleGetter.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+</Project>
