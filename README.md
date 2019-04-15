@@ -1,8 +1,6 @@
 # LambseaExternal
-[Outdated][Detected]PUBG CHEAT Create 6 months ago
+Written in C++, utilizing Windows APIs to modify game memory and issue directives to kernel drivers.
+Using D3D9 to draw lines on created overlay window to provide ESP functionalities.
 
-This is the FULL FUNCTIONAL PUBG cheat made 6 months ago. Uploaded for learning purpose
-
-#Now, for use, you need a driver, and update offsets in Gamebase
-
-However, I strongly feel that this is already signed by BE and no longer usable. (you will be banned if you use directly)
+# Legal Disclaimer
+This is the outdated and detected PUBG Game hack, Uploaded for learning purpose ONLY.
